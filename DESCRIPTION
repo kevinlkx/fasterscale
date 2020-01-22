@@ -3,11 +3,13 @@ Type: Package
 Package: fasterscale
 Version: 0.1-1
 Date: 2020-01-22
-Titie: Methods for Efficiently Centering and Scaling Matrices
+Title: Methods for Efficiently Centering and Scaling Matrices
 Description: Provides a fast and memory-efficient method for Centering and Scaling Matrices
 URL: 
 Authors@R: person("Kaixuan", "Luo", role=c("cre", "aut"), email="kevinlkx@gmail.com")
 License: MIT + file LICENSE
 Imports: 
   matrixStats
+Suggests:
+  testthat
 RoxygenNote: 7.0.2
